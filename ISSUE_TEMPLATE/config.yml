@@ -1,0 +1,17 @@
+# Org-wide default. GitHub issues are not the intake path for ContraForce work —
+# Jira is. A repository that genuinely takes issues (e.g. a public repo with external
+# reporters) should define its own .github/ISSUE_TEMPLATE/config.yml to override this.
+blank_issues_enabled: false
+contact_links:
+  - name: Report a bug or request a feature (ContraForce engineers)
+    url: https://contraops.atlassian.net
+    about: Work is tracked in Jira (PLAT), not GitHub issues. Open a ticket there.
+  - name: Customer or partner support
+    url: https://help.contraforce.com/helpcenter/support/contact-us
+    about: Product questions, account issues, and incident support.
+  - name: Product documentation
+    url: https://docs.contraforce.com
+    about: Guides, API reference, and knowledge base articles.
+  - name: Report a security vulnerability
+    url: https://github.com/ContraForce/.github/blob/main/SECURITY.md
+    about: Do not file a public issue. Follow the disclosure policy.
